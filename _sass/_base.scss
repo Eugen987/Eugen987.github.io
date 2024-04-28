@@ -75,7 +75,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: $theme-secondary;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -91,9 +91,9 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: $theme-dark;
+                color: $theme-secondary;
                 &:hover {
-                    color: $theme-primary;
+                    color: $theme-third;
                 }
             }
             &.active {
