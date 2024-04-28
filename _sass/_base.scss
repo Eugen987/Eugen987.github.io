@@ -110,23 +110,23 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: rgba(white, .3);
+        border-color: rgba(green, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba(blue, .7);
             &:hover,
             &:focus {
-                color: white;
+                color: red;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(yellow, .7);
             &:hover {
-                color: white;
+                color: purple;
             }
         }
         &.affix {
-            background-color: white;
+            background-color: brown;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
@@ -209,6 +209,7 @@ header {
 
 .section-heading {
     margin-top: 0;
+    margin-bottom: 16px;
 }
 
 .service-box {
