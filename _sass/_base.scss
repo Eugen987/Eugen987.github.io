@@ -215,6 +215,7 @@ header {
 
 .section-heading {
     margin-top: 0;
+    margin-bottom: 16px;
 }
 
 .subsection-heading {
@@ -298,7 +299,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: $theme-primary;
+    color: $theme-secondary;
 }
 
 .no-gutter > [class*='col-'] {
