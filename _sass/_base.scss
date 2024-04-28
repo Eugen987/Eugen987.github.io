@@ -110,23 +110,23 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: rgba(yellow, .3);
+        border-color: rgba($theme-secondary, .3);
         .navbar-header .navbar-brand {
-            color: rgba(green, .7);
+            color: $theme-secondary;
             &:hover,
             &:focus {
-                color: red;
+                color: $theme-third;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(orange, .7);
+            color: $theme-secondary;
             &:hover {
-                color: purple;
+                color: $theme-third;
             }
         }
         &.affix {
-            background-color: blue;
+            background-color: $theme-secondary;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
