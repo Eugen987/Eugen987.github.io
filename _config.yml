@@ -1,7 +1,7 @@
 # Site settings
-title: Saschas Wurst
-email:
-description: Best Wurst in Town # this means to ignore newlines until "baseurl:"
+title: P&S Gebrauchtwagen GmbH
+email: info@ps-gebrauchtwagen.de
+description: P&S Gebrauchtwagen GmbH # this means to ignore newlines until "baseurl:"
 baseurl:  # the subpath of your site, e.g. /blog/
 url: https://eugen987.github.io/ # the base hostname & protocol for your site
 
