@@ -116,10 +116,10 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent !important;
+        background-color: transparent;
         border-color: rgba($theme-secondary, .3);
         .navbar-header .navbar-brand {
-            color: $theme-secondary;
+            color: $theme-secondary !important;
             &:hover,
             &:focus {
                 color: $theme-third;
@@ -133,7 +133,7 @@ aside {
             }
         }
         &.affix {
-            background-color: $theme-dark;
+            background-color: $theme-secondary;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-secondary;
