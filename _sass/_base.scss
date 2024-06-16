@@ -116,7 +116,7 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
+        background-color: transparent !important;
         border-color: rgba($theme-secondary, .3);
         .navbar-header .navbar-brand {
             color: $theme-secondary;
